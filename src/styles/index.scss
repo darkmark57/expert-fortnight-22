@@ -1,0 +1,16 @@
+@use "./base/color" as color;
+@use"./base/clearDefault";
+@use "./base/typography" as typography;
+
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: base, sans-serif;
+  background-color: color.$color-5
+}
+
+main {
+  flex: 1;
+}

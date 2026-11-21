@@ -1,0 +1,31 @@
+.question {
+    max-width: 500px;
+    margin: 1rem auto;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            margin-bottom: 0.5rem;
+
+            label {
+                cursor: pointer;
+            }
+        }
+    }
+
+    button {
+        width: 100%;
+        background-color: skyblue;
+        border: none;
+        padding: 0.3rem;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+}

@@ -1,0 +1,9 @@
+@mixin softShadow (
+    $color: black,
+    $opacity: 0.5,
+    $x: 0,
+    $y: 5px,
+    $blur: 5px
+) {
+    box-shadow: $x $y $blur rgba($color, $opacity);
+}

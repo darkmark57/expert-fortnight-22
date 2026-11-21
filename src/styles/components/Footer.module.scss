@@ -1,0 +1,9 @@
+@use "../base/mixins" as mixins;
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    @include mixins.softShadow($y: -5px);
+}

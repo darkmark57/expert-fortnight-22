@@ -1,0 +1,15 @@
+@use "../base/color" as color;
+@use "../base/mixins" as mixins;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    background-color: color.$color-3;
+    @include mixins.softShadow($color: color.$color-3);
+    img {
+        height: 3rem;
+    }
+}
